@@ -1,13 +1,19 @@
 import React from 'react';
-import LocationTracker from './LocationTracker'; // Asegúrate de que el archivo LocationTracker.jsx exista
+import './App.css';
+import LocationTracker from './LocationTracker'; // Importar el componente LocationTracker
 
 const App = () => {
-  return (
+   return (
     <div>
-      <h1>GPS Dog Tracker</h1>
-      <LocationTracker />
+      <header>
+        <h1>GPS Dog Tracker</h1>
+      </header>
+      <main>
+        <LocationTracker /> {/* Componente que muestra las coordenadas */}
+      </main>
     </div>
   );
 };
 
 export default App;
+
