@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "gps-dog-tracker",
   "version": "0.1.0",
   "private": true,
@@ -30,5 +31,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "dependencies": {
+    "@react-leaflet/core": "^2.1.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0"
+>>>>>>> c0216044b3cdbfa3798e251f616426595e936617
   }
 }
